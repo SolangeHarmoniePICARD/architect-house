@@ -1,4 +1,7 @@
-/* Smooth Scroll (en complément du « Scrollspy fluide ») */
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+
+/* Smooth Scroll */
 /* html {
   scroll-behavior: smooth;
 }
@@ -15,6 +18,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  font-family: 'Lato', sans-serif !important;
 }
 
 /* carousel */
@@ -31,4 +35,12 @@ body {
 /* le corps de page */
 .jumbotron{
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1, .nav-link{
+  font-family: 'Anton', sans-serif !important;
+}
+
+h5{
+    font-family: 'Lato', sans-serif !important;
 }
